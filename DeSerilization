@@ -1,0 +1,7 @@
+FileReader file=new FileReader(file path);
+ObjectMapper mapper=new ObjectMapper();
+JsonNode jsonode=mapper.readTree();
+jsonode.get("create");
+Employee emp=mapper.treeToValue(json, Employee.class);
+
+
